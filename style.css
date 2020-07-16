@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald");
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+
+body, input, textarea{
+    font-family: Oswald;
+}
+
+
+#blog-title a {
+    text-decoration: underline #00BFA5;
+    font-size: 4rem;
+}
+
+#subscribe-btn {
+    padding-left:20px;
+    padding-right:20px;
+    background-color: #00BFA5;
+    border-radius: 4px;
+    border: 1px solid #009688;
+    cursor: pointer;
+}
+
+#subscribe-btn:hover {
+    background-color: #00D1B5;
+    transition-duration: .2s;
+}
+
+hr {
+    height: 2px;
+    background: #444;
+}
+
+#post article.norm, .font.norm, body#collection article.norm, body#subpage article.norm, pre.norm, span.norm, textarea.norm{
+    font-family: Roboto;
+    letter-spacing: .5px;
+}
+
+body #post article h2#title, body#post article h2#title {
+    font-family: Oswald;
+}
+
+body#post article time.dt-published, body#subpage article time.dt-published {
+    font-family: Oswald;
+}
+
+body#collection #wrapper h2, body#subpage #wrapper h2 {
+    font-family: Oswald;
+}
+body#collection #wrapper h2+time, body#subpage #wrapper h2+time {
+    font-family: Oswald;
+}
+
+.post-title a:visited{
+    color: #000;
+}
+
+#collection article p, #subpage article p{
+    color: #444;
+}
+
+a {
+    color: #00BFA5;
+}
+.hljs, article, pre {
+    padding: 1em 2rem 0rem;
+}
