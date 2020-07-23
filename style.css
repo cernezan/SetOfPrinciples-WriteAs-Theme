@@ -64,3 +64,10 @@ a {
 .hljs, article, pre {
     padding: 1em 2rem 0rem;
 }
+
+#post nav a:not(.home), header nav a {
+    color: #444;
+    text-decoration: underline #00BFA5;
+    font-size: 1.5rem;
+
+}
